@@ -198,6 +198,17 @@ ary11.forEach((n) => {
 });
 
 /**
+ * 配列操作：filter
+ */
+const ary13 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const ary14 = ary13.filter((num) => {
+  return num > 4;
+});
+ary14.forEach((num) => {
+  return console.log(num);
+});
+
+/**
  * 三項演算子
  */
 const ary12 = ary10.map((n) => {
